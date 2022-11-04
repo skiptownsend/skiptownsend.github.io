@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  background: #fff;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.navbtn {
+  color: #000;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+.navbtn:hover {
+  color: #808080;
+  font-size: 35px;
+  padding: 15px 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 45vw 55vw;
+  height: 100vh;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-size: 30px;
+  font-weight: bolder;
+  background: url(./Images/headshot.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.right {
+  display: grid;
+  grid-gap: 5px;
+  grid-auto-rows: 100vh;
+  overflow: auto;
+}
+
+.nametitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projbtn {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+.projbtn:hover {
+  color: #808080;
+  font-size: 32px;
+  padding: 8px 8px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactbtn {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+.contactbtn:hover {
+  color: #808080;
+  font-size: 32px;
+  padding: 8px 8px;
+}
+
+#phone {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* @media screen and (max-width: 600px){
+
+.right {
+
+}
+
+} */
